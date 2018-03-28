@@ -4,6 +4,11 @@ app.controller('MainController', function($scope, $route, $routeParams, $locatio
 
 });
 
+//AboutMeController
+app.controller('AboutMeController', function($scope, $route, $routeParams, $location) {
+
+});
+
 app.config(function($routeProvider, $locationProvider) {
   $routeProvider
   .when('/Home', {
